@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
+body {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url('https://static-algoritmika-org.ngcdn.ru/uploads/student/70511643/69a3e9c870f01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: Black; /* цвет */
+  font-size: 30px; /* размер */
+  font-family: Arial, sans-serif; /* шрифт */
+  margin-bottom: 25px; /* отступ */
+  text-align:center;
+}
+
+.box{
+  width: 100%;
+  height: 60%;
+  border-radius: 15px;
+  background-color: lavender;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+   color: Black; /* цвет */
+  font-size: 25px; /* размер */
+  font-family: Arial, sans-serif; /* шрифт */
+  margin-bottom: 44px; /* отступ */
+  text-align:center; 
+}
+
+.box2{
+width: 100%;
+  height: 50%;
+  border-top-right-radius: 90px;
+  border-bottom-left-radius: 80px;
+  background-color: Lavender;
+  margin-top: 20%;
+  text-align: center;
+}
+
+
+h3{
+   color: Black; /* цвет */
+  font-size: 25px; /* размер */
+  font-family: Arial, sans-serif; /* шрифт */
+  margin-bottom: 44px; /* отступ */
+  text-align:center; 
+}
+
+.box3{
+  width: 70%;
+  height: 50%;
+  border-radius: 20px 20px 150px 150px;
+  background-color: lavender;
+  margin:15%;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
