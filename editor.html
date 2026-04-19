@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel</title>
+</head>
+<body>
+
+<div class="container"> </div>
+  <div class = "palette">
+  <div class = "color" style="background-color:#FF0000"> </div>
+  <div class = "color" style="background-color:#FF1493"> </div>
+  <div class = "color" style ="background-color:#FFA500"> </div>
+  <div class = "color" style ="background-color:#00FF00">  </div>
+  <div class = "color" style ="background-color:#00FFFF"> </div>
+  <div class = "color" style ="background-color:#800080"> </div>
+  <div class = "color" style ="background-color:#808080"> </div>
+  <div class = "color" style ="background-color:#000000"> </div>
+  <div class = "color" style ="background-color:translute"> Ластик </div>
+  </div>
+
+
+
+ <button id = "clearBtn"> Очистить </button>
+ <script>
+  document.getElementById('clearBtn').addEventListener('click', function() {
+  const cells = document.querySelectorAll('.cell');
+  cells.forEach(cell => {
+    cell.style.backgroundColor = '#fff'; 
+  });
+})
+</script>
+</body>
+</html>
